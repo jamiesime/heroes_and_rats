@@ -23,6 +23,11 @@ describe("Task", (function(){
     assert.strictEqual(task1.reward, "Nothing");
   });
 
+  it("should be able to mark as completed", function(){
+    task1.completeThis();
+    assert.strictEqual(task1.complete, true);
+  });
+
 
 
 
