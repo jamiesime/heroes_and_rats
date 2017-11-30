@@ -8,6 +8,6 @@ var Hero = function (name, favFood) {
 
 var talk = function(nameToSay){
   return ("My name is " + nameToSay);
-}
+};
 
 module.exports = Hero;
