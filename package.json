@@ -1,0 +1,19 @@
+{
+  "name": "heroesandrats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiesime/heroes_and_rats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamiesime/heroes_and_rats/issues"
+  },
+  "homepage": "https://github.com/jamiesime/heroes_and_rats#readme"
+}
