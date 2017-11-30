@@ -19,4 +19,8 @@ describe("Hero", (function(){
     assert.strictEqual(hero1.health, 20);
   });
 
+  it("should talk and say name", function(){
+    assert.strictEqual(hero1.talk, "My name is Faye");
+  });
+
 }));
