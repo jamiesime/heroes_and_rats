@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jamiesime/heroes_and_rats/issues"
   },
-  "homepage": "https://github.com/jamiesime/heroes_and_rats#readme"
+  "homepage": "https://github.com/jamiesime/heroes_and_rats#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
