@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jamiesime/heroes_and_rats#readme",
   "devDependencies": {
     "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }

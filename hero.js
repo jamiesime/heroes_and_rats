@@ -1,3 +1,4 @@
+var _ = require('lodash');
 
 var Hero = function (name, favFood) {
   this.name = name;
@@ -24,7 +25,13 @@ Hero.prototype = {
     else {
       this.health += food.value;
     }
+  },
+
+  sortTasks: function(parameter){
+      var newOrder = _.orderBy(this.tasks, [parameter], ["asc"]);
+      this.tasks = newOrder;
   }
+
 
 }
 
