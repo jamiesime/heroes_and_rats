@@ -11,8 +11,12 @@ var talk = function(nameToSay){
   return ("My name is " + nameToSay);
 };
 
-var eat = function(newTask){
-  this.tasks.push(newTask);
+Hero.prototype = {
+
+  addTask: function(newTask){
+    this.tasks.push(newTask);
+  }
+
 }
 
 module.exports = Hero;

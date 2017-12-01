@@ -29,6 +29,11 @@ describe("Hero", (function(){
     assert.strictEqual(hero1.tasks.length, 0);
   });
 
+  it("should be able to take new tasks", function(){
+    hero1.addTask(task1);
+    assert.strictEqual(hero1.tasks.length, 1);
+  });
+
 
 
 }));
