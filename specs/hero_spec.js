@@ -9,6 +9,7 @@ describe("Hero", (function(){
     hero1 = new Hero("Faye", "Sprouts");
     task1 = new Task("Hunt Goblins", "Easy", "Low", "20");
     food1 = new Food("Hot Dog", 10);
+    food2 = new Food("Sprouts", 10);
   });
 
   it("should have a name", function(){
@@ -39,6 +40,11 @@ describe("Hero", (function(){
   it("should be able to eat food", function(){
     hero1.eat(food1);
     assert.strictEqual(hero1.health, 30);
+  })
+
+  it("should recognise favFood", function(){
+    hero1.eat(food2);
+    assert.strictEqual(hero1.health, 35);
   })
 
 
